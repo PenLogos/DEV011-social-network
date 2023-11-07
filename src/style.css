@@ -1,3 +1,4 @@
+/*eslint-disable*/
 body {
   margin: 0;
 }
@@ -133,7 +134,6 @@ h2 {
   font-size: 4rem;
   margin: 0;
   color: #d9d9d9;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -404,7 +404,6 @@ h5 {
   background-color: #E5D9CD;
   border: none; 
   margin: 3%;
-  padding: 0;
   margin-top: -8px;
   text-align: center;
   padding: 5px;
