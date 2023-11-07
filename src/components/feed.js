@@ -63,7 +63,7 @@ export const renderPostContainer = (renderTextPost, renderDisplayName, postId, d
   const textEdit = postContainer.querySelector('.edit-input');
 
   like.addEventListener('click', async () => {
-    dataLikes = await postReferenceLike(postId, dataLikes);
+    await postReferenceLike(postId, dataLikes);
     spanCounter.textContent = dataLikes.length;
   });
   deletePostButton.addEventListener('click', () => {

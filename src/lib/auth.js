@@ -111,7 +111,7 @@ export const googlePersistanceFunction = () => new Promise((resolve, reject) => 
     });
 });
 
-export const stateChanged = auth.onAuthStateChanged((user) => {
+auth.onAuthStateChanged((user) => {
   if (user) {
     const displayedName = user.displayName;
     const email = user.email;

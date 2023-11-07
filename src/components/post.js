@@ -48,10 +48,6 @@ export const renderPost = (navigateTo) => {
   const popupAlertContainer = containerPost.querySelector('#alert-pop-up');
   // -----------DOM calls-------------------
 
-  textPost.addEventListener('keyup', () => {
-
-  });
-
   closeBtn.addEventListener('click', () => {
     console.log('click');
     navigateTo('/feed');
@@ -60,10 +56,7 @@ export const renderPost = (navigateTo) => {
   uploadPictureBtn.addEventListener('click', () => {
     popupPhotoContainer.style.display = 'block';
     addPhotoButton.addEventListener('click', async () => {
-      photoUrl.addEventListener('keyup', () => {
-      });
       photoUrlValue = photoUrl.value;
-      // await editPostFunction(postId, textEditValue, renderTextPost);
       popupPhotoContainer.style.display = 'none';
     });
     rejectPhotoButton.addEventListener('click', async () => {
