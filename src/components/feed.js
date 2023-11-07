@@ -1,8 +1,9 @@
+/*eslint-disable*/
 import { signOutFunction } from '../lib/auth';
 import {
   paintRealTime, postReferenceLike, deletePostFunction, editPostFunction,
 } from '../lib/database';
-import LogoPeque from '../images/LogoPeque.png';
+// import LogoPeque from '../images/LogoPeque.png';
 
 export const renderPostContainer = (renderTextPost, renderDisplayName, postId, dataLikes = [], renderPhoto) => {
   const postContainer = document.createElement('section');
@@ -95,7 +96,7 @@ export const renderFeed = (navigateTo) => {
   const currentUser = sessionStorage.getItem('usuarioLogeado');
   const feedPage = `
   <header>
-    <img src=${LogoPeque} class="little-logo" />
+    <img class="little-logo" />
     <h3>Mochileirxs</h3>
     <div class="user-info">
       <h4 class="user">${currentUser}</h4>

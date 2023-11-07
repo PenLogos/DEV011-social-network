@@ -2,7 +2,7 @@ import {
   loginFunction, accountGoogle, authPersistanceFunction,
   googlePersistanceFunction,
 } from '../lib/auth';
-import LogoinversoPeque from '../images/LogoinversoPeque.png';
+// import LogoinversoPeque from '../images/LogoinversoPeque.png';
 
 export const renderLogin = (navigateTo) => {
   const container = document.createElement('div');
@@ -12,7 +12,7 @@ export const renderLogin = (navigateTo) => {
   sectionContainer.classList.add('section-entry');
 
   const logo = document.createElement('img');
-  logo.setAttribute('src', LogoinversoPeque);
+  // logo.setAttribute('src', LogoinversoPeque);
   logo.setAttribute('alt', 'Logo mochileiros');
   logo.setAttribute('class', 'logo-invertido');
 

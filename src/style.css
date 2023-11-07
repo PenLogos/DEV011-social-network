@@ -407,13 +407,13 @@ h5 {
   margin-top: -8px;
   text-align: center;
   padding: 5px;
-  font-family: Inter;
+  /* font-family: Inter; */
   font-size: 1rem;
 }
 
 #textPost::placeholder{
   color: #8D8B8B;
-  font-family: Inter;
+  /* font-family: Inter; */
   font-size: 1rem;
   padding: 5px;
 }

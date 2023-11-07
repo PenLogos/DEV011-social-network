@@ -78,8 +78,8 @@ export const renderPost = (navigateTo) => {
         popupAlertContainer.style.display = 'none';
       });
     } else {
-      createPost(textPostValue, photoUrlValue);
       navigateTo('/feed');
+      createPost(textPostValue, photoUrlValue);
     }
   });
 
